@@ -13,3 +13,87 @@
  *= require_tree .
  *= require_self
  */
+
+ .btn {
+    color: white;
+    padding: 9px 25px;
+    border-radius: 2px;
+    background: #670BFF;
+    transition: background 0.3s ease;
+}
+
+.box {
+  height: 3rem;
+  width: 50%;
+  margin-left: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  border: 1px solid #E7E7E7;
+  position: relative;
+}
+
+p {
+  margin-left: 20px;
+}
+
+h1 {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.answer-box {
+  overflow: hidden;
+  margin-left: 20px;
+  height: 80px;
+  width: 50%;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+}
+
+.question-box {
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  height: 80px;
+  width: 50%;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+}
+
+.question-box p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.answer-box p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-top: 8px;
+}
+
+.question-box h2 {
+  margin: 0;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.answer-box h2 {
+  margin: 0;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.ask-again {
+  margin-left: 20px;
+  margin-top: 10px;
+}
